@@ -13,11 +13,11 @@
     alert(`Entrez un nombre`);
   } else {
 
-    let a = Number('celsius * 9 / 5 + 32');
+    let Farenheit = Number('celsius * 9 / 5 + 32');
 
-    alert(`${celsius}°C = ${a}°F`);
+    alert(`${celsius}°C = ${Farenheit}°F`);
 
-    console.log(a);
+    console.log(Farenheit);
 }
 }()); // Main IIFE
 
