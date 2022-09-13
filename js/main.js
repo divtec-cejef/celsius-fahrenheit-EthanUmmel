@@ -8,8 +8,16 @@
 (function main() {
   'use strict'; // Demande un interprétation stricte du code
 
-  let a = 'Bonjour';
+  const celsius = Number(prompt('Température en celsius'));
+  if (isNaN(celsius)) {
+    alert(`Entrez un nombre`);
+  } else {
 
-  console.log(a);
+    let Farenheit = Number('celsius * 9 / 5 + 32');
+
+    alert(`${celsius}°C = ${Farenheit}°F`);
+
+    console.log(Farenheit);
+}
 }()); // Main IIFE
 
